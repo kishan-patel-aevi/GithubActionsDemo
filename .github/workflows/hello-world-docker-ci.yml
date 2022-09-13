@@ -14,7 +14,7 @@ jobs:
     
       - name: Run my own container action
         id: hello-action
-        uses: DemoActionsTemplate/hello-world-docker-action@v1
+        uses: DemoActionsTemplate/hello-world-docker-action@main
         with:
           who-to-greet: '@wulfland'
           
